@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    font-family: sans-serif;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+/* header */
+
+.header {
+    height: 80px;
+    background: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+}
+
+.header .menu {
+    width: 100%;
+}
+
+.header .menu ul {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .menu ul li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+
+.header .menu ul li a {
+    padding:15px 25px;
+    text-decoration: none;
+    color: black;
+}
+.header .menu ul li a:hover {
+    background: #a6a6a6;
+    border-radius: 5px;
+    
+}
+/* end header */
+/* banner */
+.banner img{
+    width: 100%;
+    height: 30vw;
+    margin-bottom: 50px;
+}
+/* end banner */
+/* blog */
+.blog .blogs{
+    width: 100%;
+    display: flex;
+}
+.blog h1 { 
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+.blog .single-blog{
+    border: 1px solid gray;
+    margin: 5px;
+    background: #afafaf;
+    display: flex;
+}
+.blog .single-blog img{
+    width: 200px;
+    height: 350px;
+}
+.blog .single-blog .text{
+    margin: 20px;
+}
+.blog .single-blog .text h3{
+    padding: 20px 0px;
+}
+.blog .single-blog .text p{
+    
+}
+/* blog section end */
+/*  our team section */
+.our-team{
+    margin: 100px 0px;
+}
+.our-team .button{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+.our-team .button a{
+    text-decoration: none;
+    color: white;
+    background: #383838;
+    padding: 20px 70px;
+    border-radius: 30px;
+}
+
+.our-team h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.our-team p{
+    text-align: center;
+    margin: 10px;
+}
+.our-team .members{
+    display: flex;
+    width: 100%;
+}
+.our-team .members .single-members{
+    margin: 10px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+}
+.our-team .members .single-members img{
+    display: block;
+    margin: 30px auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.our-team .members .single-members h3{
+    margin: 10px;
+    text-align: center;
+}
+.our-team .members .single-members p{
+    margin: 20px;
+    text-align: center;
+}
+.our-team .members .single-members .icons{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+.facebook{
+    color: #3b5998;
+}
+.twitter{
+    color: #55ACEE;
+}
+.google{
+    color: #DD4B39;
+}
+/* end team section */
+/* contact us section */
+.contact-us{
+    padding: 70px 10px;
+background: #afafaf;
+} 
+.contact-us h1{
+    text-align: center;
+}
+.contact-us p{
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.contact-us .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-us .content .forms{
+    width: 50%;
+}
+.contact-us .content .forms input{
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+.contact-us .content .forms textarea{
+    outline: none;
+    width: 100%;
+    padding: 10px;
+}
+.contact-us .content .forms .btn{
+    margin: 10px 0px;
+ width: 100px;
+}
+.contact-us .content .google-map{}
+
+
+
+
+
+
+
+
+
